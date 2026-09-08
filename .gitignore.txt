@@ -1,0 +1,77 @@
+# ==============================
+# Java / Maven
+# ==============================
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar   # optional – keep if you want the wrapper committed
+
+# ==============================
+# IntelliJ IDEA
+# ==============================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ==============================
+# VS Code
+# ==============================
+.vscode/
+
+# ==============================
+# Eclipse
+# ==============================
+.classpath
+.project
+.settings/
+.factorypath
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# Environment / Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+application-local.properties
+application-secret.properties
+application-*.yml          # optional – uncomment if you keep secrets in yml files
+!application.yml
+!application-dev.yml
+!application-prod.yml
+
+# ==============================
+# OS Generated Files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Temporary / Editor files
+# ==============================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ==============================
+# Build / Other
+# ==============================
+bin/
+build/
+.gradle/
